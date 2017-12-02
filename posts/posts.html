@@ -1,0 +1,6 @@
+<h2>{{$ctrl.heading}}</h2>
+<ul class="list-group">
+    <li class="list-group-item" ng-repeat="post in $ctrl.posts">
+        <a href="javascript:void(0)" ng-click="$ctrl.selectedPost(post)" >{{post.title}}</a>
+    </li>
+</ul>

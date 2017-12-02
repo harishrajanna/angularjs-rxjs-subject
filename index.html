@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bootstrap.min.css">    
+    <title>Document</title>
+</head>
+<body ng-app="app" >
+   <div ng-controller="appCtrl">
+        <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                  <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Posts</a>
+                  </div>
+                </div>
+              </nav>   
+              <div class="container">
+                  <div class="row">
+                      <div class="col-md-3 col-sm-3 sidenav">
+                          <posts></posts>
+                      </div>
+                      <div class="col-md-9 col-sm-9">
+                        <post-details></post-details>
+                      </div>
+                  </div>
+              </div>
+   </div>
+<script src="angular.min.js" ></script>
+<script src="Rx.min.js"></script>
+<script src="index.js" ></script>
+</body>
+</html>
